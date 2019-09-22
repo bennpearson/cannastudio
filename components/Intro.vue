@@ -55,7 +55,7 @@ export default {
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  .cs-form__submit {
+  .cs-intro__mailto {
     font-size: 28px;
     padding: 20px 50px;
     margin: 0 100px;
