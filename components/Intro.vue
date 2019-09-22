@@ -3,11 +3,9 @@
     <h2 class="cs-intro__title">
       {{ subtitle }}
     </h2>
-    <form class="cs-form" action="mailto:hello@cannastudio.com" method="GET">
-      <input class="cs-form__input" name="subject" type="hidden" value="Hi!" />
-      <input class="cs-form__textarea" name="body" type="hidden" value="Hi," />
-      <input class="cs-form__submit" type="submit" value="Contact us" />
-    </form>
+    <a class="cs-intro__mailto" href="mailto:hello@cannastudio.com">
+      Contact us
+    </a>
   </div>
 </template>
 
@@ -45,7 +43,7 @@ export default {
     padding: 100px 100px 130px 100px;
   }
 }
-.cs-form__submit {
+.cs-intro__mailto {
   color: black;
   background-color: white;
   font-size: 18px;
@@ -54,6 +52,7 @@ export default {
   font-weight: normal;
   cursor: pointer;
   text-transform: uppercase;
+  text-decoration: none;
 }
 @media (min-width: 768px) {
   .cs-form__submit {
