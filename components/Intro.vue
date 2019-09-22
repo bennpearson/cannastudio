@@ -3,7 +3,7 @@
     <h2 class="cs-intro__title">
       {{ subtitle }}
     </h2>
-    <a class="cs-intro__mailto" href="mailto:hello@cannastudio.com">
+    <a class="cs-intro__mailto" href="mailto:hello@cannastudio.co.uk">
       Contact us
     </a>
   </div>
