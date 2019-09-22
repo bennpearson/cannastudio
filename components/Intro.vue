@@ -1,0 +1,65 @@
+<template>
+  <div class="cs-intro">
+    <h2 class="cs-intro__title">
+      {{ subtitle }}
+    </h2>
+    <form class="cs-form" action="mailto:hello@cannastudio.com" method="GET">
+      <input class="cs-form__input" name="subject" type="hidden" value="Hi!" />
+      <input class="cs-form__textarea" name="body" type="hidden" value="Hi," />
+      <input class="cs-form__submit" type="submit" value="Contact us" />
+    </form>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    subtitle: {
+      type: String,
+      default: null
+    }
+  }
+}
+</script>
+
+<style scoped>
+.cs-intro {
+  margin-bottom: 70px;
+}
+@media (min-width: 768px) {
+  .cs-intro {
+    margin-bottom: 130px;
+  }
+}
+.cs-intro__title {
+  font-size: 50px;
+  color: white;
+  font-weight: normal;
+  padding: 50px 50px 70px 50px;
+  max-width: 1300px;
+  line-height: 1.125;
+}
+@media (min-width: 768px) {
+  .cs-intro__title {
+    font-size: 100px;
+    padding: 100px 100px 130px 100px;
+  }
+}
+.cs-form__submit {
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  margin: 0 50px;
+  font-weight: normal;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .cs-form__submit {
+    font-size: 28px;
+    padding: 20px 50px;
+    margin: 0 100px;
+  }
+}
+</style>
