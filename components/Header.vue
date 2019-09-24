@@ -44,7 +44,7 @@ export default {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 6px;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 1.125;
 }
 @media (min-width: 768px) {
