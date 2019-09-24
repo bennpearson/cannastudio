@@ -99,7 +99,7 @@ export default {
         title: 'About',
         desc: `Founded by Benn and Angharad in 2018 after careers 
         spanning 30 years in the public and private sector, 
-        Canna Studio is a product design and development studio based in Cardiff. 
+        Canna Studio is a product design and development studio based in Pontcanna, Cardiff. 
         We believe quality digital services are the key to success and our aim is 
         to help clients optimise their brand, efficiency and therefore revenue, 
         by creating innovative products with exquisite design and accessibility at their core.`
