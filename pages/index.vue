@@ -92,7 +92,7 @@ export default {
         },
         {
           title: 'Professional Design Reviews',
-          desc: `We can review your products to reveal any shortfalls and advise on how they can be overcome and improved to help you get back on track.`
+          desc: `We can review your products to reveal any shortcomings and advise on how they can be overcome and improved to help you get back on track.`
         }
       ],
       footer: {
