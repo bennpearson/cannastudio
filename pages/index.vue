@@ -52,7 +52,7 @@ export default {
             },
             {
               title: 'FinTech',
-              desc: `We help the financial technology sector optimise their digital services,
+              desc: `We help the financial technology sector optimise its digital services,
                 creating conversational user interfaces, user form journeys and design systems.
                 Previous clients include GoCo Group, Starling Bank, uSwitch and MoneySuperMarket.`,
               logo: 'logo-fintech'
@@ -67,28 +67,28 @@ export default {
           examples: [
             {
               title: 'BBC',
-              desc: `Designed a variety of products for the BBC's groundbreaking Research and Education Space (RES) project to overhaul Britain's educational resources by digitally throwing open the doors of the UK's biggest linked open data collections.`,
+              desc: `We designed a variety of products for the BBC's groundbreaking Research and Education Space (RES) project to overhaul Britain's educational resources by digitally throwing open the doors of the UK's biggest linked open data collections.`,
               logo: 'logo-bbc'
             },
             {
               title: 'Wales and West Utilities',
-              desc: `Helping engineers complete utility 
-                works saftly and efficiently`,
+              desc: `We designed a web application to help engineers complete utility 
+                works safely and efficiently.`,
               logo: 'logo-wwu'
             }
           ]
         },
         {
           title: 'Prototypes',
-          desc: `By testing prototypes on users early on you can gain insightful information to help you iterate on your designs before going into development. They are a must for every product.`
+          desc: `By testing prototypes on users early on you can gain insightful information to help iterate on designs before going into development. They are a must for every product.`
         },
         {
           title: 'Inclusive Design',
-          desc: `Accessibility is crucial and can improve revenue. We have worked for RNIB and written on the subject in .net magazine. We can test your products at the world’s leading accessibility centre for world-class usability testing.`
+          desc: `We believe accessibility is crucial and can improve revenue. We have worked for the RNIB and written on the subject in .net magazine. We can test your products at the world’s leading accessibility centre for world-class usability testing.`
         },
         {
           title: 'Interaction design',
-          desc: `We have over 15 years of Interaction Design with specialist skills in Frontend, HTML, CSS, JS, SASS and VUE. We can turn your ideas into captivating products with exquisite design.`
+          desc: `With over 15 years experience in Interaction Design and specialist skills in Frontend, HTML, CSS, JS, SASS and VUE, we can turn your ideas into captivating products with exquisite design.`
         },
         {
           title: 'Professional Design Reviews',
