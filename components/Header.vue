@@ -1,11 +1,11 @@
 <template>
-  <div class="cs-header">
+  <header class="cs-header">
     <div class="cs-header__content">
       <h1 class="cs-header__title">
         {{ title }}
       </h1>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -30,25 +30,26 @@ export default {
 }
 .cs-header__content {
   display: inline-block;
-  padding: 16px;
-  border: 1px solid white;
+  padding: 14px;
+  border: 2px solid white;
 }
 @media (min-width: 768px) {
   .cs-header__content {
     padding: 20px;
+    border: 4px solid white;
   }
 }
 .cs-header__title {
   color: white;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 6px;
-  font-size: 21px;
+  font-size: 24px;
   line-height: 1.125;
 }
 @media (min-width: 768px) {
   .cs-header__title {
-    font-size: 36px;
+    font-size: 42px;
   }
 }
 </style>

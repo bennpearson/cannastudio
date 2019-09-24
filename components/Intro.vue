@@ -22,11 +22,11 @@ export default {
 
 <style scoped>
 .cs-intro {
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 @media (min-width: 768px) {
   .cs-intro {
-    margin-bottom: 130px;
+    margin-bottom: 160px;
   }
 }
 .cs-intro__title {
@@ -49,10 +49,10 @@ export default {
   font-size: 18px;
   padding: 10px 25px;
   margin: 0 50px;
-  font-weight: normal;
+  font-weight: bold;
   cursor: pointer;
-  text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
 }
 @media (min-width: 768px) {
   .cs-intro__mailto {

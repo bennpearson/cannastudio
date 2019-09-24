@@ -2,12 +2,15 @@
   <div class="container">
     <div>
       <Header :title="title" />
-      <Intro :subtitle="subtitle" />
-      <ul class="cs-services">
-        <li v-for="(service, index) in services" :key="index">
-          <Service :items="service" />
-        </li>
-      </ul>
+      <main>
+        <Intro :subtitle="subtitle" />
+        <ul class="cs-services">
+          <li v-for="(service, index) in services" :key="index">
+            <Service :items="service" />
+          </li>
+        </ul>
+      </main>
+      <Footer :footer="footer" />
     </div>
   </div>
 </template>
@@ -16,12 +19,14 @@
 import Header from '~/components/Header.vue'
 import Intro from '~/components/Intro.vue'
 import Service from '~/components/Service.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Header,
     Intro,
-    Service
+    Service,
+    Footer
   },
   data() {
     return {
@@ -86,18 +91,19 @@ export default {
           desc: `We have over 15 years of Interaction Design with specialist skills in Frontend, HTML, CSS, JS, SASS and VUE. We can turn your ideas into captivating products with exquisite design.`
         },
         {
-          title: 'Prototypes',
-          desc: `By testing prototypes on users early on you can gain insightful information to help you iterate on your designs before going into development. They are a must for every product.`
-        },
-        {
           title: 'Professional Design Reviews',
           desc: `We can review your products to reveal any shortfalls and advise on how they can be overcome and improved to help you get back on track.`
-        },
-        {
-          title: 'About',
-          desc: `Founded by Benn and Angharad in 2018 after careers spanning 30 years in the public and private sector, Canna Studio is a product design and development studio based in Cardiff. We believe quality digital services are the key to success and our aim is to help clients optimise their brand, efficiency and therefore revenue, by creating innovative products with exquisite design and accessibility at their core.`
         }
-      ]
+      ],
+      footer: {
+        title: 'About',
+        desc: `Founded by Benn and Angharad in 2018 after careers 
+        spanning 30 years in the public and private sector, 
+        Canna Studio is a product design and development studio based in Cardiff. 
+        We believe quality digital services are the key to success and our aim is 
+        to help clients optimise their brand, efficiency and therefore revenue, 
+        by creating innovative products with exquisite design and accessibility at their core.`
+      }
     }
   }
 }
