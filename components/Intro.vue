@@ -32,10 +32,11 @@ export default {
 .cs-intro__title {
   font-size: 50px;
   color: white;
-  font-weight: normal;
+  font-weight: bold;
   padding: 50px 50px 70px 50px;
   max-width: 1300px;
   line-height: 1.125;
+  letter-spacing: -1px;
 }
 @media (min-width: 768px) {
   .cs-intro__title {
