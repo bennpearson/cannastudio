@@ -54,7 +54,7 @@ export default {
               title: 'FinTech',
               desc: `We help the financial technology sector optimise its digital services,
                 creating conversational user interfaces, user form journeys and design systems.
-                Previous clients include GoCo Group, Starling Bank, uSwitch and MoneySuperMarket.`,
+                Previous clients include GoCo Group, uSwitch and MoneySuperMarket.`,
               logo: 'logo-fintech'
             }
           ]
